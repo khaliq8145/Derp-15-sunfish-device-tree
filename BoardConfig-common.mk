@@ -39,6 +39,10 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 TARGET_BOARD_COMMON_PATH := device/google/sunfish/sm7150
 
+
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200n8 androidboot.console=ttyMSM0 printk.devkmsg=on
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += ehci-hcd.park=3
