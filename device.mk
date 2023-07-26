@@ -175,6 +175,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Speed up apps
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    Launcher3QuickStep 
+
 # ElmyraService 
 PRODUCT_PACKAGES += \
 	ElmyraService
