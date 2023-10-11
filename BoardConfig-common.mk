@@ -39,7 +39,6 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 TARGET_BOARD_COMMON_PATH := device/google/sunfish/sm7150
 
-
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
