@@ -454,6 +454,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank=512
 
+# Use mini gapps
+TARGET_USES_MINI_GAPPS := true
+
 # Now Playing
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
