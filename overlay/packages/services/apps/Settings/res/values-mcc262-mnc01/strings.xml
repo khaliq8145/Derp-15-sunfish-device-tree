@@ -19,4 +19,8 @@
 
 <resources>
     <string name="wifi_calling_settings_title">WLAN Call</string>
+
+    <!-- Whether to show the Preference for Reverse Charging -->
+    <bool name="config_show_reverse_charging">true</bool>
+
 </resources>
