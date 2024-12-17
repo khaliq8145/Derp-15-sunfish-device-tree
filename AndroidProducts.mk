@@ -17,8 +17,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_sunfish.mk \
     $(LOCAL_DIR)/aosp_sunfish_hwasan.mk \
-    $(LOCAL_DIR)/derp_sunfish.mk
+    $(LOCAL_DIR)/infinity_sunfish.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_sunfish-trunk_staging-userdebug \
-    derp_sunfish--userdebug
+    infinity_sunfish--userdebug
