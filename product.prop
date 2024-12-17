@@ -122,3 +122,12 @@ bluetooth.profile.sap.server.enabled?=true
 
 # Graphics
 debug.sdm.support_writeback=0
+
+# Add these as PRODUCT_SYSTEM_PROPERTIES (system.prop), You may use utilities as libinit if configuring for unified devices
+ro.infinity.soc=Qualcomm Snapdragon 730G
+ro.infinity.battery=3140 mAh
+ro.infinity.display=1080 x 2340, 60 Hz
+ro.infinity.camera=12.2 MP + 8 MP
+
+# Also declare your Device Name with appropriate sepolicy rule(Take libinit in use if Unified)
+ro.product.marketname=Google Pixel 4a 4G
